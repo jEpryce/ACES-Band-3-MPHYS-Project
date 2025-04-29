@@ -5,17 +5,12 @@ This repository contains the analysis scripts and Jupyter notebooks used in the 
 
 ## Contents
 
-- `0000_molecule_identification.ipynb`  
+- `1_molecule_identification.ipynb`  
   Identifies molecular lines in the spectral cube. This includes peak finding and matching to known species.
 
-- `moment_map_stitching_core.py`  
-  Script for combining Moment 0, 1, and 2 maps for each core, and generating core moment map pages for the appendix.
+- `2_final_pipeline.ipynb`  
+  Script for combining Moment 0, 1, and 2 maps for each core, .
 
-- `moment_map_stitching_cloud.py`  
-  Same as above, but for full cloud-scale maps.
-
-- `energy_proxy_analysis.ipynb`  
-  Calculates energy proxies to estimate gravitational stability of each core.
 
 ## Data Access
 
@@ -23,14 +18,3 @@ The data used in this project (ACES Band 3 FITS cubes and derived moment maps) i
 
 **Data is available upon request** for academic or review purposes. Please contact the author at sgjpryc2@liverpool.ac.uk.
 
-## Requirements
-
-To run the code and notebooks, you will need:
-
-- Python 3.x
-- `numpy`, `matplotlib`, `astropy`, `scipy`, `PIL` (Pillow)
-
-You can install dependencies with:
-
-```bash
-pip install numpy matplotlib astropy scipy pillow
