@@ -9,7 +9,7 @@ This repository contains the analysis scripts and Jupyter notebooks used in the 
   Identifies molecular lines in the spectral cube. This includes peak finding and matching to known species.
 
 - `2_final_pipeline.ipynb`  
-  Script for combining Moment 0, 1, and 2 maps for each core, .
+  Script for combining Moment 0, 1, and 2 maps for each core, and the energy proxy graphs.
 
 
 ## Data Access
